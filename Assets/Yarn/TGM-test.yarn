@@ -1,0 +1,18 @@
+title: Start
+tags:
+---
+Ready to go to square 1-10?
+<<Goto YarnController 1-10>>
+===
+title: 1-10
+tags:
+---
+Move to square 5-7
+<<Goto YarnController 5-7>>
+===
+title: 5-7
+tags:
+---
+Lets go back
+<<Goto YarnController 1-10>>
+===
