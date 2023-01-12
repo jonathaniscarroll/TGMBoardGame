@@ -1,0 +1,816 @@
+title: Ch0_00
+tags: 
+colorID: 0
+position: -403,-441
+---
+Intern Ceo:
+Welcome to the Intern Testing Facility.
+This is where the Executives "test" interns.
+Try to make your brand really compelling
+and the Execs might notice you and help you find a way out.
+What? You don't have a brand?
+Well... hopefully you can find one... in there..
+Good luck, intern.
+[[Continue.|Ch1_01]]
+===
+title: Ch1_01
+tags: 
+colorID: 0
+position: -410,-685
+---
+<<set $mlady to "Ch1_02">>
+Before you stands an immense gate between immense walls.
+[[Open the gate.|Ch1_02]]
+===
+title: Ch1_02
+tags: 
+colorID: 0
+position: -407,-927
+---
+THE BOG.
+A giant, colourful, bubbly bog divided by a bridge.
+You feel overwhelmed by hundreds of thoughts and emotions.
+<<if $mlady is "Ch1_02">>
+<<set $mlady to "Ch1_03">>
+A ghostly green figure looms ahead of you.
+<<endif>>
+[[Walk down the bridge.|Ch1_03]]
+[[Turn back.|Ch1_01]]
+===
+title: Ch1_03
+tags: 
+colorID: 0
+position: -413,-1161
+---
+You come to a cross roads.
+<<if $mlady is "Ch1_03">>
+<<set $mlady to "Ch1_04">>
+The ghostly green woman smiles at you and continues down the bridge.
+<<endif>>
+You feel robust and sad.
+You think about emptiness and adaptation.
+[[Continue down the bridge.|Ch1_04]]
+[[Turn left.|CanoeToTheIsle]]
+[[Turn right.|CanoeToTheHill]]
+[[Turn around.|Ch1_02]]
+===
+title: Ch1_04
+tags: 
+colorID: 0
+position: -409,-1394
+---
+You come to a second cross roads.
+A tunnel into a tower looms.
+<<if $mlady is "Ch1_04">>
+<<set $mlady to "Ch1_05">>
+The ghostly green woman smiles at you and drifts across the water, towards the isle.
+<<endif>>
+You feel cheeky and melancholy.
+You think about surrealism and conservation.
+[[Continue down the bridge.|Ch1_07]]
+[[Turn left, towards an isle.|Ch1_05]]
+[[Turn right, towards a hill.|Ch1_06]]
+[[Turn around.|Ch1_03]]
+===
+title: CanoeToTheIsle
+tags: 
+colorID: 0
+position: -689,-1159
+---
+A small platform with stairs down into the bog.
+A canoe by a dock.
+An isle in the distance.
+You feel cherished, abandoned, cynical, paranoid.
+You think about a higher power, surveillance, super-sizing an order of fries.
+[[Canoe to the isle.|Ch1_05]]
+[[Return to the 1st Cross Roads on the bridge|Ch1_03]]
+===
+title: CanoeToTheHill
+tags: 
+colorID: 0
+position: -142,-1159
+---
+A small platform with stairs down into the bog.
+A canoe by a dock.
+A hill in the distance.
+You feel frothy and delicious.
+[[Canoe to the hill.|Ch1_06]]
+===
+title: Ch1_05
+tags: 
+colorID: 0
+position: -692,-1398
+---
+You arrive at the isle across the bog.
+Upon it is a dismal village.
+As you reach the shores, a hooded figure approaches you.
+They look familiar.
+'You aren't allowed on our isle.' they say.
+<<if $mlady is "Ch1_05">>
+<<set $mlady to "Ch1_07">>
+<<endif>>
+You notice others, all who look exactly like your hooded acquaintance, watching the interaction from the cracks in the walls of the village.
+'We'll give you this brand element if you go away.' they continue.
+You acquire the colour: Sunflower Seed Grey
+You have acquired 1/4 necessary brand elements.
+<<set $brand to 1>>
+'Tell no one you have seen or been to our isle' the hooded stranger returns to the village.
+
+[[Return to the bridge.|Ch1_07]]
+===
+title: Ch1_07
+tags: 
+colorID: 0
+position: -411,-1623
+---
+An alleyway. Or a tunnel.
+<<if $mlady is "Ch1_07">>
+<<set $mlady to "Ch2_01">>
+The ghostly green woman waits near the tunnel's end.
+<<endif>>
+The tunnel leads into a tower. Or a factory.
+Your feelings and thoughts are once again your own.
+But there is a new sensation.
+The smell of chamomille.
+Looking down you see dozens of paper cups, filled with tea.
+[[Drink the tea.|Drinkthetea.]]
+[[Avoid the tea and continue into the tunnel.|Ch2_01]]
+[[Turn back.|Ch1_04]]
+[[Go to the isle.|Ch1_05]]
+===
+title: Ch1_06
+tags: 
+colorID: 0
+position: -155,-1393
+---
+You come to a Hill and face the mouth of a cave.
+Inside the cave you find its inhabitants.
+Their body is 2 pyramids of different sizes.
+They have 4 legs, 2 to each pyramid.
+They have 4 eyes, 2 to each pyramid.
+There are hundreds of them. They regard you.
+They run towards you.
+You run away from them.
+[[Run back to the bridge.|Ch1_07]]
+===
+title: Drinkthetea.
+tags: 
+colorID: 0
+position: -699,-1626
+---
+All your emotions and thoughts are washed away.
+Forever?
+[[Press onwards|Ch2_01]]
+===
+title: Ch2_01
+tags: 
+colorID: 0
+position: -415,-2097
+---
+A crowded place. Like an airport.
+A large octagonal desk, sits atop stairs that surround it,
+and looms in the middle of the space.
+There are 4 large doors, 1 on each side, including the side you entered from.
+There are gloomy looking interns, huddled by the walls of this room.
+
+<<if $brand is 1>>
+The mysterious green angel walks to the desk, speaks to someone, and then heads to the Eastern Door.
+<<elseif $brand is 2>>
+The intriguing green woman, made of fog, drifts by the Northern Door.
+<<elseif $brand is 3>>
+The elusive green guide, shrouded in mystery, walks through the Western Door.
+<<endif>>
+
+[[Approach the desk.|Ch2_02]]
+[[Talk to the gloomy interns|Ch2_06]]
+[[Go to the Northern Door|Ch2_05]]
+[[Go to the Eastern Door|Ch2_04]]
+[[Go to the Western Door|Ch2_03]]
+[[Go South from whence you came|Ch1_07]]
+===
+title: Ch2_02
+tags: 
+colorID: 0
+position: -397,-2521
+---
+Inside the octagonal desk,
+several interns sit at what looks like a poker table.
+They're busy and do not notice you.
+The intern sitting at the octagonal desk does notice you and says:
+'Welcome to the Intern Sorting Facility'
+'Which section would you like access to?'
+->The Dump
+    <<set $sorting to 2>>
+	Okay head West. Good luck, intern.
+	[[Head West.|Ch2_03]]
+->The Bog
+    <<set $sorting to 1>>
+	Okay head South. Good luck, intern.
+	[[Head South.|Ch1_07]]
+->The Fog
+    <<set $sorting to 4>>
+	Okay head East. Good luck, intern.
+	[[Head East.|Ch2_04]]
+->The Garden
+    <<set $sorting to 3>>
+	[[Head North.|Ch2_05]]
+===
+title: Ch2_06
+tags: 
+colorID: 0
+position: -734,-2862
+---
+Gloomy figures, dressed just like you
+sit along a section of wall beyond the big desk.
+They look cold, alone, and forgotten in plain sight.
+As you approach, one looks up at you.
+
+She speaks:
+Sunflower Seed Grey.
+Your brand is incomplete. You need X more brand components,
+if you want to avoid our fate.
+For we are the Brandless.
+
+[[Go to the desk.|Ch2_02]]
+[[Return to the entrance.|Ch2_01]]
+===
+title: Ch2_05
+tags: 
+colorID: 0
+position: -436,-3164
+---
+<<if $sorting is 3>>
+    A bored, pale intern says:
+    Enjoy The Garden, intern.
+    [[Enter the Dump.|Ch5_01]]
+<<else>>
+    A nice chill intern says:
+    You do not have access to the Garden.
+    [[Go back.|Ch2_01]]
+<<endif>>
+===
+title: Ch2_04
+tags: 
+colorID: 0
+position: 319,-2532
+---
+<<if $sorting is 4>>
+    A pointy, eager intern says:
+    Enjoy The Fog, intern.
+    [[Enter the Fog.|Ch4_01]]
+<<else>>
+    A nice chill intern says:
+    You do not have access to the Fog.
+    [[Go back.|Ch2_01]]
+<<endif>>
+===
+title: Ch2_03
+tags: 
+colorID: 0
+position: -1236,-2557
+---
+<<if $sorting is 2>>
+    A nice chill intern says:
+    Enjoy the Dump, intern.
+    [[Enter the Dump.|Ch3_01]]
+<<else>>
+    A nice chill intern says:
+    You do not have access to the Dump.
+    [[Go back.|Ch2_01]]
+<<endif>>
+===
+title: Ch3_01
+tags: 
+colorID: 0
+position: -1525,-2558
+---
+THE DUMP.
+The gates open and you walk through.
+Smells and steam, neither are pleasant.
+Next to you is an 
+[[Ocean side Factory.|Ch3_02]]
+[[Ahead of you is a long row of chemical vats.|Ch3_12]]
+===
+title: Ch5_01
+tags: 
+colorID: 0
+position: -433,-3392
+---
+THE GARDEN.
+A flat well manicured lawn with large twisty trees.
+Their foliage is lush.
+This is much nicer than the other places you've been.
+[[Walk further in.|Ch5_02]]
+[[Turn back.|Ch2_01]]
+===
+title: Ch4_01
+tags: 
+colorID: 0
+position: 611,-2528
+---
+THE FOG.
+
+You walk down a long tunnel.
+You see another intern doing the same.
+Eventually a voice shouts: Interns! ON. YOUR. MARKS!
+GET. SET.
+GO!
+The other intern starts sprinting.
+You should too.
+[[Run!|Ch4_02]]
+===
+title: Ch5_02
+tags: 
+colorID: 0
+position: -432,-3629
+---
+There's more than just trees and well manicured lawn here.
+There are sculptures. How nice!
+[[Investigate the sculptures.|Ch5_03]]
+[[Trees are more your thing.|Ch5_04]]
+===
+title: Ch5_03
+tags: 
+colorID: 0
+position: -731,-3787
+---
+Some of the sculptures are really nice.
+Others are not.
+You would guess they were made by many different people.
+You can tell some of the sculptures are popular
+Because they get imitated and iterated.
+There's a particular sculpture style that interests you.
+[[Continue to develop your aesthetic taste.|Ch5_05]]
+[[Return to your roots, the roots of the trees|Ch5_04]]
+===
+title: Ch5_04
+tags: 
+colorID: 0
+position: -163,-3790
+---
+The trees look like giant bonzai trees
+which is nice. Bonzai trees are very beautiful
+But it does contribute to this Garden feeling
+more artificial than natural.
+[[Climb the biggest tree you can find|Ch5_06]]
+===
+title: Ch5_05
+tags: 
+colorID: 0
+position: -590,-4031
+---
+Some of the sculptures are ever so hectic.
+You are drawn to the blandest one in the clearing.
+It's a bored looking figure, pointing.
+Whether you follow your aesthetic taste or follow the pointing,
+it leads to the same thing.
+Another bored figure, pointing to another, and another.
+You find yourself at the base of the largest tree in The Garden.
+The sculptor sits on branch, making their latest bored pointer.
+[[Speak to the artist.|Ch5_07]]
+===
+title: Ch5_06
+tags: 
+colorID: 0
+position: -275,-4026
+---
+There is one tree that is very big.
+You climb it. It's easy to climb but you still feel cool.
+From its top you can see the whole Intern Testing Facility.
+The ocean of The Dump.
+The invisible expanse of The Fog.
+The Bog looks like a little bubble bath from all the way up here.
+You hear a rustle above you.
+[[Investigate.|Ch5_07]]
+===
+title: Ch5_07
+tags: 
+colorID: 0
+position: -434,-4292
+---
+A pale intern with Coral coloured hair regards you.
+She looks bored and sad.
+She tells you she doesn't want to leave this place.
+She hoped no one would find her, here in The Garden
+She asks you to keep her secret, for a price.
+She gives you the shape of a Tetrahedron.
+You have collected 3/4 Brand Elements.
+<<set $brand to 3>>
+[[Return to the Intern Sorting Facility.|Ch2_01]]
+===
+title: Right1
+tags: 
+colorID: 0
+position: 1118,-2422
+---
+Ahead of you, lies a chasm.
+It seems to vast to leap across
+but what choice do you have?
+None.
+[[Leap across the chasm.|Right2]]
+===
+title: Ch4_02
+tags: 
+colorID: 0
+position: 861,-2528
+---
+The path splits into two.
+To your left,  a ramp.
+To your right, not a ramp.
+Something is compelling you to run at full speed.
+Your opponent runs the other direction.
+[[left|Left1]]
+[[right|Right1]]
+===
+title: Left1
+tags: 
+colorID: 0
+position: 1119,-2650
+---
+The ramp ends abruptly.
+You feel compelled to leap with all your momentum,
+and hope the height of the ramp helps you achieve your goal.
+[[Leap.|Left2]]
+===
+title: Right2
+tags: 
+colorID: 0
+position: 1363,-2417
+---
+Your leap is insufficient,
+and you fall.
+You see your opponent,
+who chose the ramp,
+gained sufficient height to clear the chasm.
+They run onwards.
+You land in garbage.
+At the other end of the chasm, you see a ladder out.
+[[Climb the ladder.|Right3]]
+===
+title: Right3
+tags: 
+colorID: 0
+position: 1621,-2420
+---
+You reach the top of the ladder.
+In front of you is a giant orange boulder.
+[[Push the boulder.|Right4]]
+===
+title: Left2
+tags: 
+colorID: 0
+position: 1621,-2656
+---
+You sail over a pit of garbage.
+You watch the interns that chose to avoid the ramp,
+fall into the filth.
+[[Keep running.|Left3]]
+[[Run to the ladder on the right side.|Right3]]
+===
+title: Left3
+tags: 
+colorID: 0
+position: 1873,-2658
+---
+You sprint out in the lead,
+but hear a rumble behind you.
+Looking back, you see a giant orange boulder
+closing the distance on you.
+[[Try not to get squished by the boulder.|Left4]]
+===
+title: Right4
+tags: 
+colorID: 0
+position: 2120,-2424
+---
+The boulder chases down that snobby ramp runner,
+squishing them and allowing you to make up the distance.
+[[Cross over to the Left|Left5]]
+[[Do more Run.|Right5]]
+===
+title: Left4
+tags: 
+colorID: 0
+position: 2120,-2649
+---
+You get squished by the boulder.
+But your intern body is strong and you are able to go on.
+Your opponent has caught up with you.
+[[Cross over to the right side.|Right5]]
+[[Do more Run.|Left5]]
+===
+title: Left5
+tags: 
+colorID: 0
+position: 2370,-2641
+---
+Ahead of you lies the next chasm.
+Inside this chasm are 9 leafless trees.
+In front of this chasm is a small stone fence.
+[[Run and jump at one of the trees.|Left6]]
+[[Try to leap over the entire chasm again.|ChasmBottom]]
+===
+title: Right5
+tags: 
+colorID: 0
+position: 2369,-2423
+---
+Ahead of you lies the next chasm.
+Inside this chasm are 9 leafless trees.
+In front of this chasm is a small stone fence.
+[[Run and jump at one of the trees.|Right6]]
+[[Try to leap over the entire chasm again.|ChasmBottom]]
+===
+title: Right6
+tags: 
+colorID: 0
+position: 2666,-2291
+---
+You land amongst the crackly branches.
+Below you is the chasm.
+There is water below.
+It's as if the trees are growing out of a giant well.
+[[Continue the climb to the other side.|Right7]]
+[[Risk a difficult jump to get ahead of your opponent.|ChasmBottom]]
+===
+title: ChasmBottom
+tags: 
+colorID: 0
+position: 2667,-2549
+---
+You fall to into the chasm.
+There is water to break your fall.
+Your intern body is strong.
+You're at the bottom of a massive well.
+[[Climb the trees.|Right7]]
+===
+title: Left6
+tags: 
+colorID: 0
+position: 2669,-2819
+---
+You land amongst the crackly branches.
+Below you is the chasm.
+There is water below.
+It's the trees are growing out of a giant well.
+[[Continue the climb to the other side.|Left7]]
+[[Risk a difficult jump to get ahead of your opponent.|ChasmBottom]]
+===
+title: Left7
+tags: 
+colorID: 0
+position: 2920,-2640
+---
+You arrive at the other side of the well.
+Your opponent is nowhere to be seen.
+Ahead of you is a doorway
+filled with a strange fog.
+[[Walk into the fog.|Ch4_03]]
+===
+title: Right7
+tags: 
+colorID: 0
+position: 2916,-2415
+---
+You arrive at the other side of the well.
+Your opponent is nowhere to be seen.
+Ahead of you is a doorway
+filled with a strange fog.
+[[Walk into the fog.|Ch4_03]]
+===
+title: Ch4_03
+tags: 
+colorID: 0
+position: 3178,-2560
+---
+The Fog you walk into swirls.
+It is so dense you immediately lose all sense of direction.
+The doorway you walked through already feels lost forever.
+There is no way find your bearing.
+You are a ship lost at sea without chart or compass.
+No...
+You may be lost but you are not a ship.
+You're an intern.
+You see a twinkle of emerald off in the distance.
+
+[[Follow the emerald twinkle.|Ch4_04]]
+[[Avoid the emerald twinkle.|Ch4_05]]
+===
+title: Ch3_02
+tags: 
+colorID: 0
+position: -1527,-2813
+---
+It's called The Chamomile Factory.
+At the front of this factory is a Giftshop.
+There is a cafe and small museum installation in the giftshop.
+The barista is friendly.
+The museum is informative and pleasantly designed.
+[[Continue into The Factory.|Ch3_03]]
+===
+title: Ch3_12
+tags: 
+colorID: 0
+position: -1785,-2560
+---
+The Vats that line the wall to the left of you
+are roughly 20 feet tall, with a large base diameter.
+There are a lot of them. More than you can count.
+You hear a humming coming from one of the vats.
+You follow the sound of the humming
+climbing the ladder up to look into the vat
+from which you hear the hum.
+[[Look inside.|Ch3_13]]
+===
+title: Ch3_03
+tags: 
+colorID: 0
+position: -1534,-3057
+---
+You're in a large warehouse.
+There are towers of crates of beige liquid.
+Everything smells of chamomille.
+Everything feels like nothing.
+There is a foreman's office on a balcony
+looking over the operations.
+[[Go into the office.|Ch3_04]]
+===
+title: Ch3_04
+tags: 
+colorID: 0
+position: -1525,-3291
+---
+From the balcony
+you can appreciate the grid.
+In the office, at the desk,
+You read the nametag "Intern Maximus"
+You look in the drawer and find a useful looking key
+which you take.
+The windows behind you look out across a sea.
+[[Walk to the water.|Ch3_05]]
+===
+title: Ch3_05
+tags: 
+colorID: 0
+position: -1517,-3523
+---
+Down by the docks
+behind the factory
+is a boat.
+It looks made out of wood
+and in the shape of a person, or a centaur where the bottom half is a boat instead of a horse.
+You board it and find out why the key looked useful.
+[[Set sail, captain.|Ch3_06]]
+===
+title: Ch3_06
+tags: 
+colorID: 0
+position: -1506,-3757
+---
+The sea is calming.
+Everything in the sea is not.
+On your starboard horizon, you think you see a monster.
+Looking over to port, you see a forboding island.
+[[Stay the course.|Ch3_07]]
+===
+title: Ch3_07
+tags: 
+colorID: 8
+position: -1496,-3983
+---
+You reach the other side
+and dock your trusty ship.
+Ahead of you is a tavern called:
+'Intern Pair O' Dice'
+[[Enter the tavern|Ch3_08]]
+===
+title: Ch3_08
+tags: 
+colorID: 0
+position: -1490,-4226
+---
+Intern Franken stands behind the bar,
+scrutinizing you.
+She's an intern but she's also the barkeep, you realize.
+
+<<if $brand is 4>>
+Fraken says: 
+Very good Intern, your brand is pretty cool.
+I guess you can check out the mall behind this bar.
+[[Hang out at the mall.|Ch3_09]]
+<<else>>
+You don't have a good enough brand to hang out in this bar.
+Come back when you do.
+<<endif>>
+===
+title: Ch3_09
+tags: 
+colorID: 0
+position: -1484,-4463
+---
+You walk through a mall.
+The Mall's tiles are pale.
+Behind each door, inside each store,
+strange things are taking place.
+You find a more inviting storefront.
+It's a minimalist cafe.
+
+[[Enter the cafe.|Ch3_10]]
+===
+title: Ch3_10
+tags: 
+colorID: 0
+position: -1477,-4695
+---
+Inside the minimalist cafe
+there is one customer.
+He is tall and has dark, unreadable eyes.
+He's sitting at his laptop.
+
+Do you want me to assess your brand?
+The Intern asks.
+->Yes
+    Let's see...
+    Sunflower seed grey
+    knowing the best thing to do in a situation but not doing it
+    Tetrahedron
+    Latent
+    This is a premium quality brand.
+    You have passed the test.
+    You may now escape the Intern Testing Facility!
+->No
+    I'm doing it anyways.
+    I'm bored.
+    Let's see...
+    Sunflower seed grey
+    knowing the best thing to do in a situation but not doing it
+    Tetrahedron
+    Latent
+    This is a premium quality brand.
+    You have passed the test.
+    You may now escape the Intern Testing Facility!
+[[Leave the facility.]]
+===
+title: Ch4_04
+tags: 
+colorID: 0
+position: 3185,-2092
+---
+You stumble through the fog,
+blind but for your emerald guide.
+Finally you close the distance on the twinkle you sought.
+
+There is a man standing in the fog.
+No. Not a man, just a statue of one.
+He looks more lost than you, but less distrubed by his state.
+His eye is the source of the emerald twinkle.
+
+You reach out to touch it,
+and your head is filled with the idea of:
+knowing the best thing to do in a situation but not doing it.
+You have collected 2/4 Brand Elements.
+<<set $brand to 2>>
+
+The statue turns into a door.
+[[Walk through.|Ch2_01]]
+[[Wander the Fog. Lost forever.|Ch4_05]]
+===
+title: Ch4_05
+tags: 
+colorID: 0
+position: 3868,-2090
+---
+The Fog is cruel, and unforgiving.
+If an intern wants to stay lost forever,
+The Fog is a paradise.
+However it feels, is something only you can know.
+You wander the fog for the rest of your intern life.
+
+[[End.|Ch0_00]]
+===
+title: Ch3_13
+tags: 
+colorID: 0
+position: -2042,-2567
+---
+Inside is a medium-sized fish like creature.
+It looks like a bottom feeder.
+It's humming and swimming about the strange irridescent liquid in the vat.
+The bottom feeder notices you.
+"Whoops you caught me again, did you?"
+Says the fish.
+"Don't tell anyone and I'll let you have this!"
+The fish uses its fin to toss something your way.
+You feel the emotion of "latency"
+You have collected 4/4 Brand Elements.
+<<set $brand to 4>>
+
+[[Go investigate the Ocean side Factory.|Ch3_02]]
+===
+title: Leave-the-facility
+tags: 
+colorID: 0
+position: -445,-5331
+---
+Empty Text
+===

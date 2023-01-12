@@ -8,19 +8,10 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
-  LastImportHadImplicitStringIDs: 1
-  LastImportHadAnyStrings: 1
-  isSuccessfullyParsed: 1
-  parseErrorMessages:
-  - '804:0: Error: The node ''Leave the facility.'' contains illegal characters in
-    its title.
-
-    title: Leave the facility.
-
-'
-  - '804:0: Error: The node ''Leave the facility.'' contains illegal characters in
-    its title.
-
-    title: Leave the facility.
-
-'
+  baseLanguageID: en-CA
+  stringIDs: []
+  compilationStatus: 0
+  isSuccesfullyCompiled: 0
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []
