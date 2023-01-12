@@ -9,9 +9,25 @@ ScriptedImporter:
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 053561912b1654d80a424bb0696a74ae, type: 3}
   sourceScripts:
-  - {fileID: 6391573757903218779, guid: 1a1dba100b1cf4380842708bbbcf7181, type: 3}
+  - {fileID: 6391573757903218779, guid: c085994d5bc0d46fcbfc3da00ca796db, type: 3}
   compileErrors: []
-  serializedDeclarations: []
+  serializedDeclarations:
+  - name: $mlady
+    typeName: String
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: 
+    isImplicit: 0
+    sourceYarnAsset: {instanceID: 0}
+  - name: $sorting
+    typeName: Number
+    defaultValueBool: 0
+    defaultValueNumber: 0
+    defaultValueString: 
+    description: Implicitly declared in InternTestingFacility1(1).yarn, node Ch2_02
+    isImplicit: 1
+    sourceYarnAsset: {fileID: 6391573757903218779, guid: c2603c055ef0542db9fbe54e33865e24, type: 3}
   defaultLanguage: en-CA
   languagesToSourceAssets: []
   useAddressableAssets: 0

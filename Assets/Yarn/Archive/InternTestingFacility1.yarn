@@ -1,0 +1,151 @@
+title: Ch0_00
+tags: 
+colorID: 0
+position: -403,-441
+---
+Intern Ceo:
+Welcome to the Intern Testing Facility.
+This is where the Executives "test" interns.
+Try to make your brand really compelling
+and the Execs might notice you and help you find a way out.
+
+What? You don't have a brand?
+Well... hopefully you can find one... in there..
+
+Good luck, intern.
+[[Continue|Ch1_01]]
+===
+title: Ch1_01
+tags: 
+colorID: 0
+position: -410,-685
+---
+Before you stands an immense gate between immense walls.
+[[Open the gate.|Ch1_02]]
+===
+title: Ch1_02
+tags: 
+colorID: 0
+position: -409,-927
+---
+A giant, colourful, bubbly bog divided by a bridge.
+You feel overwhelmed by hundreds of thoughts and emotions.
+A ghostly green figure looms ahead of you.
+[[Walk down the bridge.|Ch1_03]]
+[[Turn back.|Ch1_01]]
+===
+title: Ch1_03
+tags: 
+colorID: 0
+position: -413,-1161
+---
+You come to a cross roads.
+The ghostly green woman smiles at you and continues down the bridge.
+You feel robust and sad.
+You think about emptiness and adaptation.
+[[Continue down the bridge.|Ch1_04]]
+[[Turn left.|CanoeToTheIsle]]
+[[Turn right.|CanoeToTheHill]]
+[[Turn around.|Ch1_02]]
+===
+title: Ch1_04
+tags: 
+colorID: 0
+position: -409,-1394
+---
+You come to a second cross roads.
+The ghostly green woman smiles at you and continues down the bridge.
+Towards a tunnel into a tower.
+You feel cheeky and melancholy.
+You think about surrealism and conservation.
+[[Continue down the bridge.|Ch1_07]]
+[[Turn left, towards an isle.|Ch1_05]]
+[[Turn right, towards a hill.|Ch1_06]]
+[[Turn around.|Ch1_03]]
+===
+title: CanoeToTheIsle
+tags: 
+colorID: 0
+position: -689,-1159
+---
+A small platform with stairs down into the bog.
+A canoe by a dock.
+An isle in the distance.
+You feel cherished, abandoned, cynical, paranoid.
+You think about a higher power, surveillance, super-sizing an order of fries.
+[[Canoe to the isle.|Ch1_05]]
+[[Return to the 1st Cross Roads on the bridge|Ch1_03]]
+===
+title: CanoeToTheHill
+tags: 
+colorID: 0
+position: -142,-1159
+---
+A small platform with stairs down into the bog.
+A canoe by a dock.
+A hill in the distance.
+You feel
+===
+title: Ch1_05
+tags: 
+colorID: 0
+position: -692,-1398
+---
+You arrive at the isle across the bog.
+Upon it is a dismal village.
+As you reach the shores, a hooded figure approaches you.
+They look familiar.
+'You aren't allowed on our isle.' they say.
+You notice others, all who look exactly like your hooded acquaintance, watching the interaction from the cracks in the walls of the village.
+'We'll give you this brand element if you go away.' they continue.
+You acquire the colour: Sunflower Seed Grey
+You have acquired 1/4 necessary brand elements.
+'Tell no one you have seen or been to our isle' the hooded stranger returns to the village.
+[[Return to the bridge.|Ch1_07]]
+===
+title: Ch1_07
+tags: 
+colorID: 0
+position: -411,-1623
+---
+An alleyway. Or a tunnel.
+It leads into a tower. Or a factory.
+Your feelings and thoughts are once again your own.
+But there is a new sensation.
+The smell of chamomille.
+Looking down you see dozens of paper cups, filled with tea.
+[[Drink the tea.]]
+[[Avoid the tea and continue into the tunnel.|Ch2_01]]
+[[Turn back.|Ch1_06]]
+===
+title: Ch1_06
+tags: 
+colorID: 0
+position: -155,-1393
+---
+You come to a Hill and face the mouth of a cave.
+Inside the cave you find its inhabitants.
+Their body is 2 pyramids of different sizes.
+They have 4 legs, 2 to each pyramid.
+They have 4 eyes, 2 to each pyramid.
+There are hundreds of them. They regard you.
+They run towards you.
+You run away from them.
+[[Run back to the bridge.|Ch1_07]]
+===
+title: Drink-the-tea.
+tags: 
+colorID: 0
+position: -699,-1626
+---
+All your emotions and thoughts are washed away.
+Forever?
+[[Press onwards|Ch2_01]]
+===
+title: Ch2_01
+tags: 
+colorID: 0
+position: -415,-2097
+---
+Empty Text
+===
